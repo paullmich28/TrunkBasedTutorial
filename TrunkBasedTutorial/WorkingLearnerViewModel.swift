@@ -8,11 +8,14 @@
 import Foundation
 
 class WorkingLearnerViewModel: LearnerDatabaseProtocol {
-   func getLearnerById(id: Int) -> Bool {
-      return true
-   }
-   
-   func editLearnerBy(id: Int) -> Bool {
-      return true
-   }
+    func getLearnerById(id: Int) -> Bool {
+        return true
+    }
+    
+    func editLearnerBy(id: Int) -> Bool {
+        if id > 100 {
+            return true
+        }
+        return false
+    }
 }
