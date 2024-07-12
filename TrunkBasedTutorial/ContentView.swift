@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+   var viewModel: LearnerDatabaseProtocol = SampleLearnerViewModel()
+   
+   var body: some View {
+      VStack {
+         Button(action: {
+            let isAction = viewModel.editLearnerBy(id: 100)
+         }, label: {
+            Text("TapTap")
+         })
+      }
+      .padding()
+   }
 }
 
 #Preview {
-    ContentView()
+   ContentView()
 }
