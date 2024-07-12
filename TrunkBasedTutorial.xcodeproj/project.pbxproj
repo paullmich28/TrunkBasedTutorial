@@ -11,6 +11,9 @@
 		AC82E5252C40CFEB003C6234 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82E5242C40CFEB003C6234 /* ContentView.swift */; };
 		AC82E5272C40CFEB003C6234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC82E5262C40CFEB003C6234 /* Assets.xcassets */; };
 		AC82E52A2C40CFEB003C6234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC82E5292C40CFEB003C6234 /* Preview Assets.xcassets */; };
+		AC82E5312C40D29B003C6234 /* LearnerDatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82E5302C40D29B003C6234 /* LearnerDatabaseProtocol.swift */; };
+		AC82E5332C40D322003C6234 /* SampleLearnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82E5322C40D322003C6234 /* SampleLearnerViewModel.swift */; };
+		AC82E5352C40D38C003C6234 /* WorkingLearnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82E5342C40D38C003C6234 /* WorkingLearnerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		AC82E5242C40CFEB003C6234 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC82E5262C40CFEB003C6234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC82E5292C40CFEB003C6234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC82E5302C40D29B003C6234 /* LearnerDatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerDatabaseProtocol.swift; sourceTree = "<group>"; };
+		AC82E5322C40D322003C6234 /* SampleLearnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLearnerViewModel.swift; sourceTree = "<group>"; };
+		AC82E5342C40D38C003C6234 /* WorkingLearnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingLearnerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				AC82E5222C40CFEB003C6234 /* TrunkBasedTutorialApp.swift */,
 				AC82E5242C40CFEB003C6234 /* ContentView.swift */,
+				AC82E5302C40D29B003C6234 /* LearnerDatabaseProtocol.swift */,
+				AC82E5322C40D322003C6234 /* SampleLearnerViewModel.swift */,
+				AC82E5342C40D38C003C6234 /* WorkingLearnerViewModel.swift */,
 				AC82E5262C40CFEB003C6234 /* Assets.xcassets */,
 				AC82E5282C40CFEB003C6234 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC82E5312C40D29B003C6234 /* LearnerDatabaseProtocol.swift in Sources */,
 				AC82E5252C40CFEB003C6234 /* ContentView.swift in Sources */,
+				AC82E5332C40D322003C6234 /* SampleLearnerViewModel.swift in Sources */,
 				AC82E5232C40CFEB003C6234 /* TrunkBasedTutorialApp.swift in Sources */,
+				AC82E5352C40D38C003C6234 /* WorkingLearnerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
